@@ -181,3 +181,37 @@ body {
     color: black;
 }
 
+.contactbar {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.contact_form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact_form input,
+.contact_form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit_button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit_button:hover {
+    background-color: #0056b3;
+    transition: .3s;
+}
