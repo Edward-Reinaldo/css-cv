@@ -92,7 +92,7 @@ body {
     margin-bottom: 1rem;
 }
   
-  .title span {
+.title span {
     font-weight: 600;
 }
   
@@ -128,32 +128,22 @@ body {
       left: 0;
     }
   
-    ul li a {
-      font-size: 1.25rem;
-    }
-  
-    .section__container {
-      padding: 10rem 1rem 5rem 1rem;
-      text-align: center;
-      grid-template-columns: repeat(1, 1fr);
-    }
-  
     .image {
       grid-area: 1/1/2/2;
     }
   
-    .action__btns {
+    .action_btns {
       margin: auto;
     }
 }
 
-.action__btns {
+.action_btns {
     display: flex;
     gap: 1rem;
     margin-top: 2rem;
 }
   
-.action__btns button {
+.action_btns button {
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 2px;
